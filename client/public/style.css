@@ -1,0 +1,49 @@
+/* Variables */
+:root {
+  --primary-color: #367c2b;
+  --primary-color-dark: #27581f;
+  --secondary-color: #f7f2e7;
+  --border-color: #ffce00;
+  --black-text: #1d1d1d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #262626;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+  background-color: white;
+  /* height: 2000px; */
+  position: relative;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 975px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
